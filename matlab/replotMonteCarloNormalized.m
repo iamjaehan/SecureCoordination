@@ -36,8 +36,8 @@ fprintf('Trials dropped per behavior (oracle cost ~0): malicious=%d, random=%d, 
 
 xCenters     = 1:3;
 groupOffsets = linspace(-0.3, 0.3, nCoord);
-boxWidth     = 0.16;
-jitterHalf   = 0.06;
+boxWidth     = 0.10;
+jitterHalf   = 0.035;
 colors = lines(nCoord);
 
 fig3 = figure; hold on; grid on;
